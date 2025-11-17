@@ -1,0 +1,13 @@
+# Ignore gradle/cache folders
+.gradle/
+build/
+
+# Common system files
+.idea/
+*.iml
+
+# Python ignores
+__pycache__/
+*.pyc
+.env
+.venv/
