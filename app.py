@@ -19,7 +19,7 @@ def load_model():
     )
     
     # Load fine-tuned weights
-    model = PeftModel.from_pretrained(model, "your-username/robotics-forum-chatbot")
+    model = PeftModel.from_pretrained(model, "samadhanzanzurne/robotics-chatbot")
     
     return tokenizer, model
 
